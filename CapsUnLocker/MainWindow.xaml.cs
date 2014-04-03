@@ -43,14 +43,20 @@ namespace CapsUnLocker
         void enableBox_Unchecked(object sender, RoutedEventArgs e)
         {
             if (thread.IsAlive)
+            {
                 worker.stopGracefully();
+                thread.Join();
+            }
         }
 
         void mainWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
             if (thread != null)
                 if (thread.IsAlive)
+                {
                     worker.stopGracefully();
+                    thread.Join();
+                }
         }
     }
 }

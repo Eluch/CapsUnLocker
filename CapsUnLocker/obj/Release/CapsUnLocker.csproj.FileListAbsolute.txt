@@ -11,3 +11,6 @@ C:\Users\Ferenc\Desktop\Dropbox\Programming\c#\CapsUnLocker\CapsUnLocker\obj\Rel
 C:\Users\Ferenc\Desktop\Dropbox\Programming\c#\CapsUnLocker\CapsUnLocker\obj\Release\CapsUnLocker.exe
 C:\Users\Ferenc\Desktop\Dropbox\Programming\c#\CapsUnLocker\CapsUnLocker\obj\Release\CapsUnLocker.pdb
 C:\Users\Ferenc\Desktop\Dropbox\Programming\c#\CapsUnLocker\CapsUnLocker\obj\Release\CapsUnLocker.csprojResolveAssemblyReference.cache
+D:\GitProjects\CapsUnLocker\CapsUnLocker\bin\Release\CapsUnLocker.exe.config
+D:\GitProjects\CapsUnLocker\CapsUnLocker\obj\Release\CapsUnLocker.exe
+D:\GitProjects\CapsUnLocker\CapsUnLocker\obj\Release\CapsUnLocker.pdb
