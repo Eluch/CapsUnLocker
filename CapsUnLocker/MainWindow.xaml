@@ -1,0 +1,13 @@
+﻿<Window x:Class="CapsUnLocker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Name="mainWindow"
+        ResizeMode="CanMinimize"
+        Title="CapsUnLocker" Height="136" Width="310" Background="LightBlue" Icon="Robot.ico">
+    <Grid>
+        <Image Opacity="0.25" Source="Robot.ico" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <CheckBox HorizontalAlignment="Center" VerticalAlignment="Center" Name="enableBox">Enable CapsUnLocker</CheckBox>
+        <TextBlock HorizontalAlignment="Right" VerticalAlignment="Bottom" Foreground="Blue">by: Eluch</TextBlock>
+    </Grid>
+
+</Window>

@@ -1,0 +1,13 @@
+C:\Users\Ferenc\Desktop\Dropbox\Programming\c#\CapsUnLocker\CapsUnLocker\bin\Release\CapsUnLocker.exe.config
+C:\Users\Ferenc\Desktop\Dropbox\Programming\c#\CapsUnLocker\CapsUnLocker\bin\Release\CapsUnLocker.exe
+C:\Users\Ferenc\Desktop\Dropbox\Programming\c#\CapsUnLocker\CapsUnLocker\bin\Release\CapsUnLocker.pdb
+C:\Users\Ferenc\Desktop\Dropbox\Programming\c#\CapsUnLocker\CapsUnLocker\obj\Release\MainWindow.baml
+C:\Users\Ferenc\Desktop\Dropbox\Programming\c#\CapsUnLocker\CapsUnLocker\obj\Release\MainWindow.g.cs
+C:\Users\Ferenc\Desktop\Dropbox\Programming\c#\CapsUnLocker\CapsUnLocker\obj\Release\App.g.cs
+C:\Users\Ferenc\Desktop\Dropbox\Programming\c#\CapsUnLocker\CapsUnLocker\obj\Release\CapsUnLocker_MarkupCompile.cache
+C:\Users\Ferenc\Desktop\Dropbox\Programming\c#\CapsUnLocker\CapsUnLocker\obj\Release\CapsUnLocker.g.resources
+C:\Users\Ferenc\Desktop\Dropbox\Programming\c#\CapsUnLocker\CapsUnLocker\obj\Release\CapsUnLocker.Properties.Resources.resources
+C:\Users\Ferenc\Desktop\Dropbox\Programming\c#\CapsUnLocker\CapsUnLocker\obj\Release\CapsUnLocker.csproj.GenerateResource.Cache
+C:\Users\Ferenc\Desktop\Dropbox\Programming\c#\CapsUnLocker\CapsUnLocker\obj\Release\CapsUnLocker.exe
+C:\Users\Ferenc\Desktop\Dropbox\Programming\c#\CapsUnLocker\CapsUnLocker\obj\Release\CapsUnLocker.pdb
+C:\Users\Ferenc\Desktop\Dropbox\Programming\c#\CapsUnLocker\CapsUnLocker\obj\Release\CapsUnLocker.csprojResolveAssemblyReference.cache
