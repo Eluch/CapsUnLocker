@@ -13,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Forms;
 
 namespace CapsUnLocker
 {
@@ -23,6 +24,7 @@ namespace CapsUnLocker
     {
         Worker worker;
         Thread thread;
+        NotifyIcon ni;
 
         public MainWindow()
         {
@@ -31,6 +33,30 @@ namespace CapsUnLocker
             enableBox.Unchecked += enableBox_Unchecked;
             mainWindow.Closing += mainWindow_Closing;
             worker = new Worker();
+
+            ni = new NotifyIcon();
+            ni.Text = mainWindow.Name;
+            ni.Icon = Properties.Resources.Robot;
+            ni.Visible = true;
+
+            mainWindow.StateChanged += mainWindow_StateChanged;
+            ni.DoubleClick += ni_DoubleClick;
+        }
+
+        void ni_DoubleClick(object sender, EventArgs e)
+        {
+            if (mainWindow.WindowState == System.Windows.WindowState.Minimized)
+            {
+                mainWindow.Show();
+                mainWindow.WindowState = System.Windows.WindowState.Normal;
+                mainWindow.Focus();
+            }
+        }
+
+        void mainWindow_StateChanged(object sender, EventArgs e)
+        {
+            if (mainWindow.WindowState == System.Windows.WindowState.Minimized)
+                mainWindow.Hide();
         }
 
         void enableBox_Checked(object sender, RoutedEventArgs e)
@@ -51,6 +77,7 @@ namespace CapsUnLocker
 
         void mainWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
+            ni.Visible = false;
             if (thread != null)
                 if (thread.IsAlive)
                 {

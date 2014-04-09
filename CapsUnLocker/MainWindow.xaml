@@ -7,7 +7,7 @@
     <Grid>
         <Image Opacity="0.25" Source="Robot.ico" HorizontalAlignment="Left" VerticalAlignment="Center"/>
         <CheckBox HorizontalAlignment="Center" VerticalAlignment="Center" Name="enableBox">Enable CapsUnLocker</CheckBox>
-        <TextBlock HorizontalAlignment="Right" VerticalAlignment="Bottom" Foreground="Blue">by: Eluch</TextBlock>
+        <TextBlock HorizontalAlignment="Right" VerticalAlignment="Bottom" Foreground="Blue" Margin="0,0,10,10">by: Eluch</TextBlock>
     </Grid>
 
 </Window>
