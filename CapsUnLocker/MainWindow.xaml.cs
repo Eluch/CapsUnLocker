@@ -37,7 +37,6 @@ namespace CapsUnLocker
             ni = new NotifyIcon();
             ni.Text = mainWindow.Name;
             ni.Icon = Properties.Resources.Robot;
-            ni.Visible = true;
 
             mainWindow.StateChanged += mainWindow_StateChanged;
             ni.DoubleClick += ni_DoubleClick;
@@ -50,13 +49,17 @@ namespace CapsUnLocker
                 mainWindow.Show();
                 mainWindow.WindowState = System.Windows.WindowState.Normal;
                 mainWindow.Focus();
+                ni.Visible = false;
             }
         }
 
         void mainWindow_StateChanged(object sender, EventArgs e)
         {
             if (mainWindow.WindowState == System.Windows.WindowState.Minimized)
+            {
                 mainWindow.Hide();
+                ni.Visible = true;
+            }
         }
 
         void enableBox_Checked(object sender, RoutedEventArgs e)
