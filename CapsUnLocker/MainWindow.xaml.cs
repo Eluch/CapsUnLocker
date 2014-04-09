@@ -80,7 +80,7 @@ namespace CapsUnLocker
 
         void mainWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            ni.Visible = false;
+            ni.Dispose();
             if (thread != null)
                 if (thread.IsAlive)
                 {
