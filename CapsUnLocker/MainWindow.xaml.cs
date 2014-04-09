@@ -35,7 +35,7 @@ namespace CapsUnLocker
             worker = new Worker();
 
             ni = new NotifyIcon();
-            ni.Text = mainWindow.Name;
+            ni.Text = mainWindow.Title;
             ni.Icon = Properties.Resources.Robot;
 
             mainWindow.StateChanged += mainWindow_StateChanged;
